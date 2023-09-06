@@ -24,7 +24,7 @@
         steps{
     nexusArtifactUploader artifacts: [[artifactId: 'bioMedical',
      classifier: '', 
-     file: 'target/bioMedical-0.0.1-SNAPSHOP.JAR', 
+     file: 'target/bioMedical-0.0.2-SNAPSHOP.JAR', 
      type: 'jar']], 
      credentialsId: '', 
      groupId: 'qa',
@@ -32,7 +32,7 @@
        nexusVersion: 'nexus3',
         protocol: 'http', 
         repository: 'prof-repo',
-         version: '0.0.1'
+         version: '0.0.2'
     }
 
     }
