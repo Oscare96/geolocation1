@@ -32,7 +32,7 @@
        nexusVersion: 'nexus3',
         protocol: 'http', 
         repository: 'prof-repo',
-         version: '002'
+         version: '0.0.1'
     }
 
     }
